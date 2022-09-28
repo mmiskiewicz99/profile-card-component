@@ -11,7 +11,7 @@ body{
     font-size: 18px;
     font-weight: 700;
     height: 95vh;
-    background: url(/images/bg-pattern-bottom.svg) top -130% right -99vh no-repeat, url(/images/bg-pattern-top.svg) bottom -130% right 5vh no-repeat;
+    background: url(./images/bg-pattern-bottom.svg) top -130% right -99vh no-repeat, url(./images/bg-pattern-top.svg) bottom -130% right 5vh no-repeat;
     background-color: hsl(185, 75%, 39%); 
     color: hsl(229, 23%, 23%);
     
@@ -100,7 +100,7 @@ body{
 /*responivity settigs*/
  @media only screen and (min-width:600px) {
     body{
-        background: url(/images/bg-pattern-bottom.svg) bottom 200% right -80vh no-repeat, url(/images/bg-pattern-top.svg) bottom -130% right 40vh  no-repeat;
+        background: url(./images/bg-pattern-bottom.svg) bottom 200% right -80vh no-repeat, url(./images/bg-pattern-top.svg) bottom -130% right 40vh  no-repeat;
         background-color: hsl(185, 75%, 39%); 
     }
     .card{
@@ -109,7 +109,7 @@ body{
 }
 @media only screen and (min-width:1000px) {
     body{
-        background: url(/images/bg-pattern-bottom.svg) bottom 200% right -50vh no-repeat, url(/images/bg-pattern-top.svg) bottom -130% right 90vh  no-repeat;
+        background: url(./images/bg-pattern-bottom.svg) bottom 200% right -50vh no-repeat, url(./images/bg-pattern-top.svg) bottom -130% right 90vh  no-repeat;
         background-color: hsl(185, 75%, 39%); 
     }
     .card{
